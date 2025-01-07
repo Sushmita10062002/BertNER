@@ -30,7 +30,7 @@ if __name__ == "__main__":
         "enc_pos": enc_pos,
         "enc_tag": enc_tag
     }
-    joblib.dump(meta_data, "/content/drive/MyDrive/projects/Named_Entity_Recognition/output/model.bin")
+    joblib.dump(meta_data, "../output/meta.bin")
 
     num_pos = len(list(enc_pos.classes_))
     num_tag = len(list(enc_tag.classes_))
