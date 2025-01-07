@@ -1,0 +1,7 @@
+
+inputs/*
+models/*
+
+
+!inputs/.gitkeep
+!outputs/.gitkeep
